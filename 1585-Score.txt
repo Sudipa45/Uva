@@ -1,0 +1,31 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+int t;
+char s[80];
+cin>>t;
+for(int i=1;i<=t;i++)
+{
+      scanf("%s",&s);
+       int p=0,sum=0;
+
+      for(int j=0;j<strlen(s);j++)
+    {
+    if(s[j]=='O')
+
+   {
+      p=p+1;
+    sum=sum+p;
+
+   }
+
+
+    else
+        p=0;
+
+    }
+ printf("%d\n",sum);
+}
+
+}

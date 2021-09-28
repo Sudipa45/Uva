@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main() {
+   int  i=1;
+   string str;
+   while(cin>>str)
+   {
+       if(str=="*")break;
+    if(str=="Hajj")cout<<"Case "<<i<<": Hajj-e-Akbar"<<endl;
+    if(str=="Umrah")cout<<"Case "<<i<<": Hajj-e-Asghar"<<endl;
+       i++;
+   }
+   return 0;
+   }

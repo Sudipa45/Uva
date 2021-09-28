@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main() {
+   int  a,b,diff,c;
+   while(cin>>a>>b)
+   {
+       if((a==-1)&&(b==-1))break;
+       diff=abs(a-b);
+   c=100-diff;
+   if(diff>c)cout<<c<<endl;
+   else cout<<diff<<endl;
+   }
+   return 0;
+   }
